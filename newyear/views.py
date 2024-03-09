@@ -6,7 +6,7 @@ def index(request):
     now=datetime.now()
 
 
-    return render (request, "newyear/index.html",{"newyear":now.month == 3 and now.day == 9
+    return render (request, "newyear/index.html",{"newyear":now.month == 1 and now.day == 1
 
     }
     )
